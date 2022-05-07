@@ -27,6 +27,17 @@ module.exports = () => {
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
+
+      new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: 'text-editor',
+        description: 'Just Another Text Editor',
+        background_color: '#cc0000',
+        theme_color: '#cc0000',
+        start_url: '/',
+        publicPath: '/',
+      })
     ],
 
     module: {
