@@ -1,7 +1,7 @@
 {
-  "name": "jate",
+  "name": "justanothertexteditor",
   "version": "1.0.0",
-  "description": "",
+  "description": "text editor thats supposed to persist in cache",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
