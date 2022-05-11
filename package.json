@@ -2,6 +2,10 @@
   "name": "justanothertexteditor",
   "version": "1.0.0",
   "description": "text editor thats supposed to persist in cache",
+  "engines":{
+    "node": "16.13.2",
+    "npm": "8.1.2"
+  },
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -20,8 +24,6 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4",
-    "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+    "nodemon": "^2.0.4"
   }
 }
