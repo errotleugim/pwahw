@@ -14,6 +14,7 @@
 
 ## Description
 Excercise in progressive web applications. It's a terminal-styled text editor that remains in memory. Through indexedDB, or local storage. It can also be downloaded to the desktop as an application. 
+![Screenshot](https://github.com/errotleugim/pwahw/blob/master/ss.png)
 
 ## Installation
 Download files, navigate to directory within terminal, run "npm install" and then "npm run start"
