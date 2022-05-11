@@ -1,5 +1,5 @@
 {
-  "name": "justanothertexteditor",
+  "name": "just-another-text-editor",
   "version": "1.0.0",
   "description": "text editor thats supposed to persist in cache",
   "engines":{
